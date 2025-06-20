@@ -3,7 +3,7 @@ import assets from '../../Assets/assets';
 
 export default function Efficiency() {
   return (
-    <div className="flex flex-col lg:flex-row  justify-center items-center lg:items-start gap-[15px] lg:gap-[120px] pt-[100px] pl-6 md:pl-0 ">
+    <div className="flex flex-col lg:flex-row  justify-center items-center lg:items-start gap-[15px] lg:gap-[120px] pt-[100px]  md:pl-0 ">
       {/* Image Section */}
       <div className="scale-[0.9] sm:scale-[1] origin-top">
         <div className="relative w-[212px] sm:w-[400px] h-[350px] sm:h-[500px]">

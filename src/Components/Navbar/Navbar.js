@@ -96,23 +96,30 @@ export default function HeaderBar() {
 
         <ul className="flex flex-col gap-4">
           {[
-            'Home',
-            'Chi Siamo',
-            'S.I.R.E',
-            'Sire Features',
-            'Why Sire?',
-            'SIRE Product',
-            'How it Works?',
-          ].map((item, index) => (
-            <li
-              key={index}
-              className={`text-[18px] leading-[95%] cursor-pointer ${
-                index === 0 ? 'text-[#86BE3F]' : 'text-[#8A8888] hover:text-[#86BE3F]'
-              }`}
-            >
-              {item}
-            </li>
-          ))}
+  { name: 'Home', href: '#home' },
+  { name: 'Chi Siamo', href: '#chi-siamo' },
+  { name: 'S.I.R.E', href: '#sire' },
+  { name: 'Sire Features', href: '#sire-features' },
+  { name: 'Why Sire?', href: '#why-sire' },
+  { name: 'SIRE Product', href: '#sire-product' },
+  { name: 'How it Works?', href: '#how-it-works' },
+].map((item, index) => (
+  <li
+    key={index}
+    className={`text-[18px] leading-[95%] cursor-pointer ${
+      index === 0 ? 'text-[#86BE3F]' : 'text-[#8A8888] hover:text-[#86BE3F]'
+    }`}
+  >
+    <a
+      href={item.href}
+      onClick={() => setMobileMenuOpen(false)}
+      className="block w-full"
+    >
+      {item.name}
+    </a>
+  </li>
+))}
+
         </ul>
 
         <div className="flex items-center space-x-2 mt-6">
@@ -126,7 +133,7 @@ export default function HeaderBar() {
         </div>
 
         <button className="w-full bg-[#86BE3F] hover:bg-[#6BA32B] text-white py-2 px-4 rounded-md mt-4">
-          Contact Us
+         <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</a> 
         </button>
       </nav>
     </header>
