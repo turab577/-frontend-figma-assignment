@@ -58,14 +58,14 @@ export default function HeaderBar() {
 
         {/* DESKTOP NAV */}
         <div className="hidden md:flex items-center space-x-8">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 group cursor-pointer">
             <img src={assets.Phone} alt="Phone" className="w-[18px]" />
-            <span className="text-[#8A8888] text-[16px]">0203 519 4420</span>
+            <span className="text-[#8A8888] text-[16px] group-hover:text-[#86BE3F]">0203 519 4420</span>
           </div>
 
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 cursor-pointer group">
             <img src={assets.Message} alt="Message" className="w-[18px]" />
-            <span className="text-[#8A8888] text-[16px]">info@solarinnovatio.com</span>
+            <span className="text-[#8A8888] text-[16px] group-hover:text-[#86BE3F]">info@solarinnovatio.com</span>
           </div>
 
           <button className="bg-[#86BE3F] hover:bg-[#6BA32B] text-white py-2 px-4 rounded-md transition duration-200">
@@ -122,9 +122,9 @@ export default function HeaderBar() {
 
         </ul>
 
-        <div className="flex items-center space-x-2 mt-6">
+        <div className="flex items-center space-x-2 mt-6 cursor-pointer group">
           <img src={assets.Phone} alt="Phone" className="w-[18px]" />
-          <span className="text-[#8A8888] text-[15px]">0203 519 4420</span>
+          <span className="text-[#8A8888] text-[15px] group-hover:text-[]">0203 519 4420</span>
         </div>
 
         <div className="flex items-center space-x-2 mt-2">

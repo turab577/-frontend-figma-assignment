@@ -33,7 +33,7 @@ export default function Team() {
         <p className="font-[600] text-[36px] pb-6 border-b-[4px] border-b-[#86BE3F] inline-block">
           CHI SIAMO
         </p>
-        <p className="font-regular text-[12px] md:text-[17px] leading-[155%] px-4 md:px-[100px] xl:px-[280px] text-center pt-6">
+        <p className="font-regular container mx-auto text-[12px] md:text-[17px] leading-[155%] px-4 md:px-[100px] xl:px-[280px] text-center pt-6">
           Solar Innovatio è una PMI innovativa italiana specializzata nella progettazione e realizzazione di sistemi fotovoltaici intelligenti. Solar Innovatio unisce alla decennale esperienza maturata nel panorama italiano nell'ambito delle soluzioni fotovoltaiche un approccio ingegneristico, innovativo, digitale alla principale fonte di energia rinnovabile.
         </p>
         <img

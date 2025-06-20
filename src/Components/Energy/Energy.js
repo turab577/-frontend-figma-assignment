@@ -48,17 +48,17 @@ export default function Energy() {
       }
     ]
   return (
-    <div className='pt-20 container mx-auto'>
+    <div className='pt-20 '>
       <p className='font-[600] text-[38px] leading-[84%] text-center pb-6'>Perchè S.I.R.E</p>
       <div className='flex justify-center'>
         <div className='bg-[#86BE3F] w-[119px] h-[4px]'></div>
       </div>
-      <div className="flex flex-wrap justify-around px-3 xl:px-[220px]">
+      <div className="flex flex-wrap justify-around px-3 xl:px-[220px] container mx-auto">
   {uses.map((use) => {
     return (
       <div
         key={use.ID}
-        className="bg-white shadow-xl flex flex-col items-center w-full sm:w-[30%] my-4 py-4 mx-2"
+        className="bg-white shadow-xl flex flex-col items-center w-full sm:w-[31%] my-4 py-4 mx-2"
       >
         <img src={use.img} alt="alternate" />
         <p className="text-[#363636] font-[600] lg:text-[24px] leading-[50px]">
