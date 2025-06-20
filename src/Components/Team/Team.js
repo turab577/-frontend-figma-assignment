@@ -60,8 +60,8 @@ export default function Team() {
                 bg-[#f8f8f8]
                 px-4 xl:px-10
                 text-center
-                xl:pt-[100px] xl:h-[277px] mt-[-50px] xl:mt-[-110px] relative z-[-100] xl:w-[350px]
-                xl:pt-6 pt-10 pb-6
+                xl:pt-[100px] xl:h-[350px] mt-[-50px] xl:mt-[-110px] relative z-[-100] xl:w-[350px]
+                xl:pt-6 pt-10 pb-10
               "
             >
               <h3 className="font-bold text-[18px] xl:text-[20px]">{person.name}</h3>
