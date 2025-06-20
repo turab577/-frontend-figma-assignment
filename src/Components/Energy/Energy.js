@@ -72,7 +72,7 @@ export default function Energy() {
   })}
 </div>
 
-    <div className="flex flex-wrap justify-center gap-3 bg-[#f9f9f9] mt-10 p-5">
+    <div className="flex flex-wrap justify-center gap-2 md:gap-3 bg-[#f9f9f9] mt-10 p-5">
       {Benefits.map((benefit)=>{
         return(
           <div key={benefit.ID} className='bg-white w-[134px] md:w-[255px] shadow-xl flex flex-col items-center p-6'>
