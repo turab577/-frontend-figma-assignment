@@ -33,7 +33,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer Section */}
-      <div className="relative text-[#ccc] py-10 overflow-hidden">
+      <div className="relative text-[#ccc] py-10 overflow-hidden pl-[24px] sm:pl-0">
         {/* Blurred Background */}
         <div
           className="absolute inset-0 bg-repeat z-0 opacity-[0.05]"

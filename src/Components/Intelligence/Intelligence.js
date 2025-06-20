@@ -50,7 +50,7 @@ export default function Intelligence() {
   return (
     <div className=" pt-[61px] lg:pt-[200px] relative container mx-auto">
       <div>
-        <p className="font-[600] text-[20px] md:text-[36px] leading-[84%] text-[#363636] text-center">
+        <p className="font-[600] text-[20px] md:text-[36px] leading-[100%] sm:leading-[84%] text-[#363636] text-center">
           Connesso, Intelligente, Resistente
         </p>
         <div className="flex justify-center pt-6">

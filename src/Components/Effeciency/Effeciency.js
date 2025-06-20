@@ -36,7 +36,7 @@ export default function Efficiency() {
       </div>
 
       {/* Text Section */}
-      <div className="flex flex-col w-full sm:max-w-xl pt-[20px] sm:pt-[35px] relative ">
+      <div className="flex flex-col w-full sm:max-w-xl pt-[20px] sm:pt-[35px] relative pl-[24px] sm:pl-0">
         {/* Background3 Image */}
         <img
           src={assets.Background}
